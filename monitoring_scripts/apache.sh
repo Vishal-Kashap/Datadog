@@ -11,7 +11,7 @@ sudo systemctl enable apache2
 # Datadog Agent installation on Ubuntu Server.
 # Enter your Datadog API Key in below command.
 
-DD_API_KEY=YOUR_DATADOG_API_KEY DD_SITE="us5.datadoghq.com" bash -c "$(curl -L https://install.datadoghq.com/scripts/install_script_agent7.sh)"
+DD_API_KEY=YOUR_DATADOG_API_KEY DD_SITE="datadoghq.com"  bash -c "$(curl -L https://install.datadoghq.com/scripts/install_script_agent7.sh)"
 
 # Creating configuration file of datadog agent's apache's configuration file
 
