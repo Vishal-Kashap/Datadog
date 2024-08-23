@@ -40,7 +40,9 @@ EOL'
 
 # Enable logs
 
-sudo sed -i 's/logs_enabled: false/logs_enabled: true/' /etc/datadog-agent/datadog.yaml
+sudo bash -c 'cat <<EOL >> /etc/datadog-agent/datadog.yaml
+logs_enabled: true
+EOL'
 
 # Restart Services
 
